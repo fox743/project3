@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tur Qeydiyyat</title>
+    <style>
+        .ss {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #100720;
+        }
+
+        .kutu1 {
+            width: 165px;
+            height: 62px;
+            cursor: pointer;
+            color: #fff;
+            font-size: 17px;
+            border-radius: 1rem;
+            border: none;
+            position: relative;
+            background: #100720;
+            transition: 0.1s;
+        }
+        .kutu1::after{content: '';
+        width: 100%;
+        height: 100%;
+        background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(255,94,247,1) 17.8%,rgba(2,245,255,1) 100.2% );
+        filter: blur(15px);
+        z-index: -1;
+        position: absolute;
+        left: 0;
+        top: 0;
+
+        .kutu1:active{
+            transform: scale(0.9) rotate(3deg);
+            background: radial-gradient;(circle farthest-corner at 10% 20%, rgba(255,94,247,1) 17.8%,rgba(2,245,255,1) 100.2% );
+            transition: 0.5s;
+        }
+        
+
+        }
+        .kutu5{
+            width: 100px;
+            height: 500px;
+        }
+    </style>
+</head>
+
+<body class="ss">
+    <div class="kutu5"></div>
+ <a href="second.html"> <button class="kutu1">Tur Qeydiyyat</button></a>
+</body>
+
+</html>
